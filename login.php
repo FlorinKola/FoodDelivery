@@ -25,11 +25,11 @@ if (isset($_POST['username'])) {
 
     if (mysqli_num_rows($result) == 1) {
         echo "<script>window.alert(\"You have successfully logged in.\");</script>";
-        header("Location: http://localhost/foodmanagement/conn.php");
+        header("Location: http://localhost/fooddelivery/conn.php");
         exit();
     } else {
         echo "One or more of your credentials were wrong. Please try again.";
-        header("Location: http://localhost/foodmanagement/login.php");
+        header("Location: http://localhost/fooddelivery/login.php");
         exit();
     }
 }

@@ -150,13 +150,13 @@ and also makes looking at other elements on the website much easier.*/
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: 0.2s;
+    /* transition: 0.2s; */
     margin-right: 30px;
     margin-bottom: 20px;
 }
 
 .text a:hover {
-    letter-spacing: 6px;
+    letter-spacing: 3px;
 }
 
 
@@ -215,7 +215,6 @@ table button {
     float: right;
     margin: 3px;
 }
-
 table input {
     width: 50px;
 }
