@@ -78,7 +78,7 @@ if (!empty($username) || !empty($password)) {
     $stmt->execute();
 
     echo '<script> window.alert("User insertion successful.")</script>';
-    header("Location: http://localhost/foodmanagement/adduser.php");
+    header("Location: http://localhost/fooddelivery/adduser.php");
     $stmt->close();
     $conn->close();
 
