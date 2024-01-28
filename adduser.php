@@ -5,7 +5,6 @@
     <title>Data Editor</title>
     <link rel="stylesheet" href="datastyle.css" <?php echo time(); ?>>
 </head>
-
 <body>
     <div class="text1">
         <p>Please enter the information accordingly:</p>
@@ -23,7 +22,6 @@
         </div>
         <input type="submit" class="btn btn primary">
     </form>
-
     <div class="backbutton">
         <a href="conn.php">
             <button style="margin:8px;">Go back</button>
@@ -53,7 +51,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
-
 $sql = "SELECT * from users";
 $result = $conn->query($sql);
 
